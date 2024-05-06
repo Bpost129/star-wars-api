@@ -23,7 +23,7 @@ const StarshipList = () => {
       <h1>STAR WARS STARSHIPS</h1>
       {starshipList.map(starship => 
         <Link to={`/starships/${starship.url.substring(32)}`} key={starship.url.substring(32)}>
-          <button style={{margin: '10px', border: ''}}>{starship.name}</button>
+          <button style={{margin: '10px'}}>{starship.name}</button>
         </Link>
       )}
     </main>

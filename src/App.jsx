@@ -1,16 +1,11 @@
-
 import { Route, Routes } from 'react-router-dom'
 
 import StarshipList from './pages/StarshipList/StarshipList'
 import StarshipDetails from './pages/StarshipDetails/StarshipDetails'
 
-
-
 import './App.css'
 
 function App() {
-  
-
   return (
     <>
       <Routes>
